@@ -21,3 +21,19 @@ Options:
 Since otter.ai is a cloud service, you will need to provide your credentials in order to use it. The tool will request
 them from the user if they are not provided on first launch.
 
+## Installation
+
+You can find binaries for this tool in the [releases](https://github.com/JoshuaMulliken/transcribe/releases) page.
+
+Supports: (only been tested on macOS; feedback welcome!)
+- Windows (amd64, x86, arm64)
+- Linux (amd64, x86, arm64)
+- MacOS (amd64, arm64)
+
+### Install from source
+
+```bash
+$ git clone https://github.com/JoshuaMulliken/transcribe.git
+$ cd transcribe
+$ ./install.sh
+```
